@@ -1,0 +1,15 @@
+{
+    "name": "jfparis/test-jenkins-pipeline",
+    "description": "test jenkins pipeline",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^8.4"
+    },
+    "authors": [
+        {
+            "name": "Jean-Francois Paris",
+            "email": "jfparis84@gmail.com"
+        }
+    ],
+    "require": {}
+}
