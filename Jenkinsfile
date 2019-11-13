@@ -11,6 +11,11 @@ pipeline {
             steps {
                 sh './vendor/bin/phpunit'
             }
+            post {
+                always {
+                    junit 'build/junit.xml'
+                }
+            }
         }
         stage('Deploy') {
             input {
